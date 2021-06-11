@@ -11,5 +11,23 @@ body {
 }
 .container {
     margin: 20px;
+    padding:10px;
     display:flex;
+}
+
+.dishcontainer {
+  display:flex;
+  margin:20px;
+  padding:10px;
+  p {
+    font-size : 12px;
+    margin : 0;
+    line-height : 012px;
+}
+.mat-list  {
+  height: 50px; /* default is 72px */
+  margin:10px;
+
+}
+ 
 }
