@@ -32,13 +32,13 @@
           <h3>Comments</h3>
           <mat-nav-list>
 
-            <mat-list *ngFor="let comments of dish.comments">
+            <mat-list *ngFor="let comment of dish.comments">
 
 
-              <p>{{comments.comment}}</p>
-              <p>{{comments.rating}} stars
+              <p>{{comment.comment}}</p>
+              <p>{{comment.rating}} stars
               </p>
-              <p>-- {{comments.author}} {{comments.date | date}} </p>
+              <p>-- {{comment.author}} {{comment.date | date}} </p>
 
 
             </mat-list>
