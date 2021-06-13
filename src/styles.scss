@@ -37,10 +37,31 @@ body {
 
 .dishcontainer {
   display:flex;
-  margin:20px;
-  padding:10px;
+  margin: 10px;
+    padding:10px;
   p {
     font-size : 12px;
+    margin : 0;
+    line-height : px;
+}
+.mat-list  {
+  height: 50px; /* default is 72px */
+  margin:10px;
+
+}
+ 
+}
+
+.aboutcontainer {
+  display:flex;
+  margin:20px;
+  padding:10px;
+  img{
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  p {
+    font-size : 13px;
     margin : 0;
     line-height : 012px;
 }
