@@ -10,13 +10,13 @@ export class DishService {
 
   constructor() { }
 
-  getDishes(): Dish[] {
-    return DISHES;
+  getDishes(): Promise<Dish[]> {
+    return Promise.resolve(DISHES);
   }
-  getDish(id: string): Dish {
-    return DISHES.filter((di) => (di.id == id))[0];
+  getDish(id: string): Promise<Dish> {
+    return Promise.resolve(DISHES.filter((di) => (di.id == id))[0]);
   }
-  getFeaturedDIsh(): Dish {
-    return DISHES.filter((di) => di.featured)[0];
+  getFeaturedDIsh(): Promise<Dish> {
+    return Promise.resolve(DISHES.filter((di) => di.featured)[0]);
   }
 }
